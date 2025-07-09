@@ -2,7 +2,8 @@
   "name": "n8n-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "n8n"
+    "postinstall": "npm install",
+    "start": "npx n8n"
   },
   "dependencies": {
     "n8n": "^1.44.0"
